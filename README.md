@@ -5,4 +5,4 @@ I made a couple of modifications to a forked code on github to download multiple
 
 Built another word embedding using gensim and the command with params is
 
-"python -m gensim.scripts.word2vec_standalone -train output_file.txt -output pwc.200d.bin -size 200d.bin -size 200 -sample 1e-4 -binary 1 -cbow 0"
+"python -m gensim.scripts.word2vec_standalone -train <<your_file_name>> -output pwc.10kq.200d.bin  -size 200 -sample 1e-4 -binary 1 -cbow 0"
